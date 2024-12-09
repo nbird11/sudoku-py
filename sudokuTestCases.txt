@@ -1,0 +1,27 @@
+- Invalid input:
+	Recognize if the user types something other than a coordinate or the letter 'Q' to quit, or letter ‘S’ to display all possible values for a given square
+
+- Reversed coordinates:
+	Handle both "B2" and "2B" in the same way
+
+- Lowercase coordinates:
+	Handle both "B2" and "b2" in the same way
+
+- Square already filled:
+	Warn the user if the selected square already has a number
+
+- Invalid number:
+	Warn the user if an invalid number such as 0 or 11 is entered into the board
+
+- Unique Row:
+	Recognize if the user's number is already present on the selected row
+
+- Unique Column:
+	Recognize if the user's number is already present on the selected column
+
+- Unique Inside Square:
+	Recognize if the user's number is already present on the selected inside square
+
+- Show possible values:
+	At the user's request, show the possible values for a given square
+

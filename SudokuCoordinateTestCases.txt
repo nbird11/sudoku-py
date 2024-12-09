@@ -1,0 +1,31 @@
+   PRECONDITION
+
+-  Use file `131.05.Easy.json` or `131.06.Easy.json` with associated input.
+
+
+   NAME			INPUT		OUTPUT		ASSIGNMENT
+
+1. Uppercase forward	'C3'		No error	Requirement
+
+2. Lowercase forward	'd7'		No error	Requirement
+
+3. Uppercase reverse	'3G'		No error	Requirement
+
+4. Lowercase reverse	'1f'		No error	Requirement
+
+5. Square filled	'e7'		Filled error	Error state
+
+6. Short coordinate	'I'		Invalid error	Error state
+
+7. Long coordinate	'10g'		Invalid error	Error state/Boundary
+
+8. Char out of range hi	'K5'		Invalid error	Boundary
+
+9. Num out of range low	'0E'		Invalid error	Boundary
+
+10. Double char		'CC'		Invalid error	Error state
+
+11. Double num		'31'		Invalid error	Error state
+
+12. Empty str		''		Invalid error	Error state
+
